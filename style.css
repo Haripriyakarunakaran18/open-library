@@ -519,3 +519,42 @@ body {
 .search-icon.right {
   right: 12px;
 }
+
+
+/* PAGE VIEW STYLE */
+.page-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 30px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.hidden {
+  display: none;
+}
+
+.back-btn {
+  padding: 10px 15px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Footer button style */
+.footer-btn {
+  background: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 0;
+  text-align: left;
+}
